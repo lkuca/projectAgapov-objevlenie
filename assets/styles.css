@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2; /* Цвет фона для заголовков */
+    color: #333; /* Цвет текста для заголовков */
+}
+th, td {
+    border: 2px solid red; /* Добавить красную обводку для отладки */
+}
+
+table thead {
+    display: table-header-group; /* Убедитесь, что заголовки таблицы отображаются */
+    background-color: #f2f2f2;
+    color: #333;
+}

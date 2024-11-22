@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Просторная квартира в центре города",
+    "description": "Квартира с двумя спальнями, светлой гостиной и балконом. Рядом метро и парк.",
+    "photos": ["https://images.cdn-cian.ru/images/1/682/544/kvartira-moskva-prechistenskaya-naberezhnaya-445286135-4.jpg", "https://images.cdn-cian.ru/images/kvartira-moskva-poklonnaya-ulica-2201650504-4.jpg"],
+    "price": 80000,
+    "created_at": "2024-11-22 14:30:00"
+  },
+  {
+    "id": 2,
+    "title": "Автомобиль BMW X5",
+    "description": "Продается автомобиль 2018 года. В отличном состоянии, пробег 60,000 км.",
+    "photos": ["https://www.bmw.ee/content/dam/bmw/common/all-models/m-series/x5m/2023/highlights/bmw-m-series-x5-m-sd-bmw-individual-01.jpg", "https://assets.meinauto.de/image/upload/q_auto:eco/f_auto/dpr_1.0/c_scale,h_614,w_920/v1//prod/bmw/x5/4/5suv-xdrive40imsport/bmw_24x5xdrive40imsportpacksu4rb_angularfront.png"],
+    "price": 45000,
+    "created_at": "2024-11-21 10:15:00"
+  },
+  {
+    "id": 3,
+    "title": "Ноутбук Apple MacBook Pro",
+    "description": "Модель 2021 года с процессором M1, 16 ГБ ОЗУ и 512 ГБ SSD.",
+    "photos": ["https://apple-nova.ru/files/item/8468fe0e909e0aa9fa75c2a1683d6e63_1.jpg", "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x400.jpg"],
+    "price": 2000,
+    "created_at": "2024-11-20 09:45:00"
+  },
+  {
+    "id": 4,
+    "title": "Смартфон Samsung Galaxy S22",
+    "description": "Абсолютно новый, гарантия от магазина 2 года. Доступен в чёрном цвете.",
+    "photos": ["https://images.hind.ee/43/47/samsung-galaxy-s22-128gb.jpg", "https://cdn.toredo.de/item/images/8596/middle/samsung-galaxy-s22-graphite-3.jpg"],
+    "price": 1000,
+    "created_at": "2024-11-19 16:20:00"
+  },
+  {
+    "id": 5,
+    "title": "Игровая приставка PlayStation 5",
+    "description": "Продается в комплекте с 2 джойстиками и 3 играми. Использовалась 2 месяца.",
+    "photos": ["https://onoff.ee/2666459-superlarge_default_2x/sony-playstation-5-slim.jpg", "https://ee2.pigugroup.eu/colours/482/143/0/4821430/sony-playstation-5-blu-ray-edition-49c6f-soodsam_original.jpg"],
+    "price": 700,
+    "created_at": "2024-11-18 12:00:00"
+  },
+  {
+    "id": 6,
+    "title": "Городской велосипед",
+    "description": "Лёгкий алюминиевый велосипед для прогулок. Почти новый, на гарантии.",
+    "photos": ["https://altan.ee/wp-content/uploads/2017/04/Jalgratas_Rondine_T481_WHITE_2021.jpg", "https://altan.ee/wp-content/uploads/2017/11/Jalgratas_Torpado_Rondine_T481-e1675362133315.jpg"],
+    "price": 300,
+    "created_at": "2024-11-17 14:40:00"
+  },
+  {
+    "id": 7,
+    "title": "Стенка для гостиной",
+    "description": "Современная мебель в скандинавском стиле. Белый глянец с деревянными вставками.",
+    "photos": ["https://www.antarescompany.ru/images/tmb/product/detskie/raus/tess/64151_01_388_291_crop.jpg"],
+    "price": 1200,
+    "created_at": "2024-11-16 11:25:00"
+  },
+  {
+    "id": 8,
+    "title": "Профессиональная фотокамера Canon",
+    "description": "Модель Canon EOS R6. Включает объектив 24-105 мм и 3 аккумулятора.",
+    "photos": ["https://i1.adis.ws/i/canon/eos-5d-mark-iv-frt-w-ef-50mm_cbe4f7204ac24bf9bc8f79fb6cce4179?$block-media-1by1-dt-jpg$", "https://www.xela.ru/wp-content/uploads/2015/03/otlichie-professionalnyx-zerkalnyx-kamer-ot-lyubitelskix-pic2.jpg"],
+    "price": 2500,
+    "created_at": "2024-11-15 15:00:00"
+  },
+  {
+    "id": 9,
+    "title": "Школьный комплект",
+    "description": "Рюкзак, пенал, блокноты и канцелярия. Всё новое, яркие цвета.",
+    "photos": ["https://ee2.pigugroup.eu/colours/263/979/58/26397958/4-osaline-koolikomplekt-tudrukutele-b48fc_original.jpg", "https://ee2.pigugroup.eu/colours/263/979/58/26397958/4-osaline-koolikomplekt-tudrukutele-10636-hinnangud_reference.jpg"],
+    "price": 50,
+    "created_at": "2024-11-14 08:10:00"
+  },
+  {
+    "id": 10,
+    "title": "Коттедж в пригороде",
+    "description": "Двухэтажный дом с гаражом и садом. Всего 30 минут от центра города.",
+    "photos": ["https://экоферма22.рф/wp-content/uploads/2020/02/milyj-domik.jpg", "https://img.prian.ru/c/448x300/2024_08/8/202408080605291902079540o.jpg"],
+    "price": 150000,
+    "created_at": "2024-11-13 18:50:00"
+  }
+]
