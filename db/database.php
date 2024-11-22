@@ -1,12 +1,15 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=ads_service;charset=utf8';
-$username = 'root';
-$password = '';
+$config = require __DIR__ . '/../config/config.php';
 
-try {
-    $db = new PDO($dsn, $username, $password);
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo 'Connection failed: ' . $e->getMessage();
-    exit;
+function getDatabaseConnection() {
+    $config = require __DIR__ . '/../config/config.php';
+    $dsn = "mysql:host={$config['db']['host']};dbname={$config['db']['dbname']};charset=utf8";
+    try {
+        return new PDO($dsn, $config['db']['user'], $config['db']['password'], [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        ]);
+    } catch (PDOException $e) {
+        die('Database connection error: ' . $e->getMessage());
+    }
 }
